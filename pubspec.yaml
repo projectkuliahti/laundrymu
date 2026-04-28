@@ -1,0 +1,27 @@
+name: laundry_app
+description: Aplikasi Laundry Online - Cuci, Setrika, Express
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  # ✅ flutter_svg versi terbaru & stabil
+  flutter_svg: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ✅ Pastikan path asset benar — file harus ada di:
+  # assets/images/logo_laundrymu.svg
+  assets:
+    - assets/images/
