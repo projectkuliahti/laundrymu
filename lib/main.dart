@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'splash_screen.dart';
-import 'login_screen.dart';
-import 'otp_page.dart';
+import 'views/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +18,6 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         primaryColor: const Color(0xFF3B499A),
       ),
-      // Mulai dari Splash Screen
       home: const SplashScreen(),
     );
   }
