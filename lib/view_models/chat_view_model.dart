@@ -4,7 +4,7 @@ import '../models/chat_message.dart';
 class ChatViewModel extends ChangeNotifier {
   final TextEditingController textController = TextEditingController(text: 'Hai min');
   final List<ChatMessage> messages = [
-    ChatMessage(text: 'Halo, ada yang bisa dibantu min?', isMe: false, time: '09:30'),
+    ChatMessage(text: 'Selamat Datang di LaundryMu! \nAda yang bisa kami dibantu?', isMe: false, time: '09:30'),
   ];
 
   void sendMessage() {

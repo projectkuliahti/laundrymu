@@ -38,7 +38,7 @@ class _ChatPageContent extends StatelessWidget {
               style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
             ),
             Text(
-              'Laundrystu',
+              'LaundryMu',
               style: TextStyle(color: Colors.white70, fontSize: 12),
             ),
           ],
@@ -49,10 +49,10 @@ class _ChatPageContent extends StatelessWidget {
             padding: const EdgeInsets.only(right: 15),
             child: CircleAvatar(
               radius: 20,
-              backgroundImage: const AssetImage('assets/images/Profile Biru.png'),
-              child: ClipOval(
-                child: Icon(Icons.person, color: Colors.white),
-              ),
+              backgroundImage: const AssetImage('assets/images/logo_laundrymu.png'),
+              // child: ClipOval(
+              //   child: Icon(Icons.person, color: Colors.white),
+              // ),
             ),
           )
         ],
@@ -103,7 +103,7 @@ class _ChatPageContent extends StatelessWidget {
                       controller: viewModel.textController,
                       decoration: const InputDecoration(
                         border: InputBorder.none,
-                        hintText: 'Tulis pesan...',
+                        hintText: 'Ketik pesan...',
                       ),
                     ),
                   ),
